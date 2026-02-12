@@ -1,0 +1,7 @@
+{
+  "gmail_address": "your-email@gmail.com",
+  "gmail_app_password": "your-16-character-app-password",
+  "recipient_email": "krkavi@microsoft.com",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587
+}

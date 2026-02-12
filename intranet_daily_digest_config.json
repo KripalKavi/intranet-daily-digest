@@ -1,0 +1,42 @@
+  {
+  "agent_name": "Intranet Daily Digest Agent",
+  "version": "1.0.0",
+  "recipient_email": "krkavi@microsoft.com",
+  "scheduled_time": "08:00 Pacific Time",
+  "delivery_method": "automated_smtp",
+  "search_topics": [
+    "enterprise intranets",
+    "employee experience platforms",
+    "consumer website builders",
+    "AI-native vibe builders",
+    "prototype-to-code tools"
+  ],
+  "item_limit": {
+    "min": 10,
+    "target": 15,
+    "max": 20
+  },
+  "search_recency_days": 7,
+  "categories": [
+    {
+      "name": "Enterprise Intranets",
+      "emoji": "🏢",
+      "keywords": ["SharePoint", "Viva Connections", "employee portal", "intranet"]
+    },
+    {
+      "name": "Employee Experience Platforms",
+      "emoji": "👥",
+      "keywords": ["Viva", "employee experience", "digital workplace", "ServiceNow EX"]
+    },
+    {
+      "name": "Consumer Website Builders",
+      "emoji": "🌐",
+      "keywords": ["Wix", "Squarespace", "Webflow", "Framer", "website builder"]
+    },
+    {
+      "name": "AI-Native Builders & Prototype-to-Code",
+      "emoji": "🤖",
+      "keywords": ["v0.dev", "Bolt.new", "Lovable", "Replit Agent", "AI website builder", "prototype to code", "Figma to code"]
+    }
+  ]
+}

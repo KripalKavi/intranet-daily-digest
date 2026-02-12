@@ -1,0 +1,12 @@
+{
+  "claude_api_key": "sk-ant-api03-YOUR_CLAUDE_API_KEY_HERE",
+  "search_provider": "serpapi",
+  "search_api_key": "YOUR_SERPAPI_KEY_HERE",
+  "google_cx": "YOUR_GOOGLE_CUSTOM_SEARCH_CX_HERE_IF_USING_GOOGLE",
+  "notes": {
+    "claude_api_key": "Get from https://console.anthropic.com/ - Select 'API Keys' in your account",
+    "search_provider": "Options: 'serpapi' or 'google_custom'",
+    "serpapi_key": "Get from https://serpapi.com/ - 100 free searches/month",
+    "google_custom": "Get API key from https://console.cloud.google.com/ and CX from https://programmablesearchengine.google.com/"
+  }
+}

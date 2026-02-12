@@ -1,0 +1,29 @@
+# Configuration files with credentials and API keys
+email_config.json
+api_config.json
+
+# Generated digest files
+latest_digest.html
+digest_*.html
+
+# Log files
+digest_log.txt
+automation_log.txt
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

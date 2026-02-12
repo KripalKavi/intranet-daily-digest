@@ -1,0 +1,14 @@
+# Python requirements for Automated Intranet Daily Digest
+
+# Anthropic Claude API
+anthropic>=0.39.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Already included in Python standard library:
+# - json
+# - sys
+# - os
+# - datetime
+# - pathlib
