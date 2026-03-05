@@ -112,18 +112,19 @@ def perform_searches(config):
     log("Starting web searches...")
 
     queries = [
-        "enterprise intranet updates 2026",
-        "employee experience platform news 2026 digital workplace",
-        "website builder updates 2026 Wix Squarespace Webflow Framer",
-        "v0.dev bolt.new lovable AI website builder 2026",
-        "prototype to code AI tools Figma to code 2026",
-        "AI-native design tools generative UI platforms 2026"
+        "SharePoint Viva intranet new feature launch announcement 2026",
+        "employee experience platform product release announcement 2026",
+        "Wix Squarespace Webflow Framer new feature release 2026",
+        "v0.dev bolt.new lovable Replit Agent new release announcement 2026",
+        "AI prototype to code tool launch announcement 2026",
+        "figma AI code generation new feature release 2026",
+        "enterprise intranet employee experience AI tools industry trends report 2026"
     ]
 
     all_results = {}
 
     for i, query in enumerate(queries, 1):
-        log(f"Search {i}/6: {query[:50]}...")
+        log(f"Search {i}/{len(queries)}: {query[:50]}...")
 
         if config['search_provider'] == 'serpapi':
             results = search_serpapi(query, config['search_api_key'])
