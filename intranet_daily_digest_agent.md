@@ -47,15 +47,15 @@ When invoked, follow this workflow:
 
 ### Step 1: Execute Web Searches
 
-Use the WebSearch tool to search for recent updates (within last 7 days when possible) on each topic category.
+Use the WebSearch tool to search for recent updates (within last 7 days when possible) on each topic category. Prioritize product launches, updates and announcements over just broad industry news, trends and reports. 
 
 Execute searches with queries like:
-- "enterprise intranet updates 2026"
-- "employee experience platform news"
-- "consumer website builder updates"
-- "AI website builder tools prototype to code"
-- "v0.dev bolt.new lovable updates"
-- "figma to code AI tools"
+- "SharePoint Viva intranet new feature launch announcement 2026"
+- "employee experience platform product release announcement 2026"
+- "Wix Squarespace Webflow Framer new feature release 2026"
+- "v0.dev bolt.new lovable Replit Agent new release announcement 2026"
+- "AI prototype to code tool launch announcement 2026"
+- "figma AI code generation new feature release 2026"
 
 Perform 4-6 strategic searches to cover all topic areas comprehensively.
 
