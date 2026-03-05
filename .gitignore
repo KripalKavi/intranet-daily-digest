@@ -22,6 +22,9 @@ venv/
 env/
 ENV/
 
+# Workspace settings
+Kripal's Claude Code Projects.code-workspace
+
 # IDE
 .vscode/
 .idea/
