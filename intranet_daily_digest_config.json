@@ -1,5 +1,5 @@
   {
-  "agent_name": "Intranet Daily Digest Agent",
+  "agent_name": "Intranet Weekly Digest Agent",
   "version": "1.0.0",
   "recipient_email": "krkavi@microsoft.com",
   "scheduled_time": "08:00 Pacific Time",

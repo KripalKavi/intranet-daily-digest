@@ -3,16 +3,19 @@
   <RegistrationInfo>
     <Date>2026-01-25T00:00:00</Date>
     <Author>krkavi</Author>
-    <Description>Sends daily digest email at 8 AM PT covering enterprise intranets, employee experience platforms, website builders, and AI-native tools</Description>
-    <URI>\IntranetDailyDigest</URI>
+    <Description>Sends weekly digest email at 8 AM PT covering enterprise intranets, employee experience platforms, website builders, and AI-native tools</Description>
+    <URI>\IntranetWeeklyDigest</URI>
   </RegistrationInfo>
   <Triggers>
     <CalendarTrigger>
       <StartBoundary>2026-01-26T08:00:00</StartBoundary>
       <Enabled>true</Enabled>
-      <ScheduleByDay>
-        <DaysInterval>1</DaysInterval>
-      </ScheduleByDay>
+      <ScheduleByWeek>
+        <WeeksInterval>1</WeeksInterval>
+        <DaysOfWeek>
+          <Monday />
+        </DaysOfWeek>
+      </ScheduleByWeek>
     </CalendarTrigger>
   </Triggers>
   <Principals>

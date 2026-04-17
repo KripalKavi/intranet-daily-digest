@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Main automation script for daily digest
+Main automation script for weekly digest
 Generates digest and sends email
 """
 
@@ -19,7 +19,7 @@ def log(message):
 def main():
     """Main automation workflow"""
     log("=" * 60)
-    log("Starting Daily Digest Automation")
+    log("Starting Weekly Digest Automation")
     log("=" * 60)
 
     try:
@@ -53,7 +53,7 @@ def main():
             print(result.stderr, file=sys.stderr)
 
         if result.returncode == 0:
-            log("\n✅ Daily digest automation completed successfully!")
+            log("\n✅ Weekly digest automation completed successfully!")
             return 0
         else:
             log(f"\n❌ Email sending failed with code {result.returncode}")

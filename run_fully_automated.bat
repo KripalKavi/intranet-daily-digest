@@ -12,7 +12,7 @@ echo Run started: %DATE% %TIME% >> %LOG_FILE%
 echo ============================================================ >> %LOG_FILE%
 
 echo ============================================================
-echo Intranet Daily Digest - Full Automation
+echo Intranet Weekly Digest - Full Automation
 echo ============================================================
 echo.
 echo Step 1: Generating fresh digest content...

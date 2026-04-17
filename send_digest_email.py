@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Intranet Daily Digest Email Sender
+Intranet Weekly Digest Email Sender
 Sends the generated digest via Gmail SMTP
 """
 
@@ -65,7 +65,7 @@ def send_email(config, html_content):
     msg = MIMEMultipart('alternative')
     msg['From'] = config['gmail_address']
     msg['To'] = config['recipient_email']
-    msg['Subject'] = f"Intranet Daily Digest - {datetime.now().strftime('%B %d, %Y')}"
+    msg['Subject'] = f"Intranet Weekly Digest - {datetime.now().strftime('%B %d, %Y')}"
 
     # Attach HTML content
     html_part = MIMEText(html_content, 'html')
@@ -99,7 +99,7 @@ def main():
     """Main function to send the digest email"""
     try:
         print("=" * 60)
-        print("Intranet Daily Digest Email Sender")
+        print("Intranet Weekly Digest Email Sender")
         print("=" * 60)
 
         # Load configuration

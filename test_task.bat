@@ -1,12 +1,12 @@
 @echo off
 echo ============================================================
-echo Testing Intranet Daily Digest Task
+echo Testing Intranet Weekly Digest Task
 echo ============================================================
 echo.
 echo Running the scheduled task manually...
 echo.
 
-schtasks /Run /TN "IntranetDailyDigest"
+schtasks /Run /TN "IntranetWeeklyDigest"
 
 if %errorlevel% equ 0 (
     echo.
@@ -16,7 +16,7 @@ if %errorlevel% equ 0 (
     echo.
     echo To view task history:
     echo   1. Open Task Scheduler
-    echo   2. Find "IntranetDailyDigest"
+    echo   2. Find "IntranetWeeklyDigest"
     echo   3. Click on "History" tab
     echo.
 ) else (
